@@ -1,0 +1,16 @@
+# secrets & outputs at repo root
+*.pem
+*.sig
+out_*.png
+tampered_*.png
+_tc*.*
+_input.png
+_camera.png
+*.jpg
+__pycache__/
+.venv/
+*.pyc
+
+# allow curated demo assets & screenshots in docs/
+!docs/demo/**
+!docs/screenshots/**
